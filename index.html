@@ -42,12 +42,18 @@
         <input id="search-within-time-text" type="text" placeholder="Ex: Google Office NYC or 75 9th Ave, New York, NY">
         <input id="search-within-time" type="button" value="Go">
       </div>
+      <hr>
+      <div>
+        <span class="text">Search for nearby places</span>
+        <input id="places-search" type="text" placeholder="Ex: Pizza delivery in NYC">
+        <input id="go-places" type="button" value="Go">
+      </div>
     </div>
     <div id="map"></div>
   </div>
   <script src="googleMap.js"></script>
 
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKvpuYGtcN7erv_7CY1ZGWtOxXpqysZxs&libraries=drawing,geometry&v=3&callback=initMap"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKvpuYGtcN7erv_7CY1ZGWtOxXpqysZxs&libraries=places,drawing,geometry&v=3&callback=initMap"></script>
 
 </body>
 </html>
